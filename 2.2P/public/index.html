@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+
+
+
+<h1 style="position:center;">Simple Calculator</h1>
+
+<div class="grid">
+
+    <form action="/add" method="GET">
+        <h3>Addition</h3>
+        <input type="number" name="num1" placeholder="First Number" required>
+        <input type="number" name="num2" placeholder="Second Number" required>
+        <button type="submit">Add</button>
+    </form>
+
+     <form action="/subtract" method="GET">
+        <h3>Subtraction</h3>
+        <input type="number" name="num1" placeholder="First Number" required>
+        <input type="number" name="num2" placeholder="Second Number" required>
+        <button type="submit">Subtract</button>
+    </form>
+
+    <form action="/multiply" method="GET">
+        <h3>Multiplication</h3>
+        <input type="number" name="num1" placeholder="First Number" required>
+        <input type="number" name="num2" placeholder="Second Number" required>
+        <button type="submit">Multiply</button>
+    </form>
+
+    <form action="/divide" method="GET">
+        <h3>Division</h3>
+        <input type="number" name="num1" placeholder="First Number" required>
+        <input type="number" name="num2" placeholder="Second Number" required>
+        <button type="submit">Divide</button>
+    </form>
+
+    <form action="/square" method="GET">
+        <h3>Square</h3>
+        <input type="number" name="num" placeholder="Enter Number" required>
+        <button type="submit">Square</button>
+    </form>
+
+</div>
+
+</body>
+</html>
