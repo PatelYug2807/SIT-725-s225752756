@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SIT 725 Prac3</title>
+
+    <meta name="description" content="basic template for SIT 725 Prac3">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="SIT 725 Prac3">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="basic template for SIT 725 Prac3">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="css\styles.css">
+  
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper navbar-size">
+            <a href="#" class="brand-logo">
+                <img class="user-image-size" src="https://th.bing.com/th/id/OIP.0X4zKcE-s3aM3eKCpWb-JQHaEW?w=275&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="User Image">
+            </a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a target="_blank" href="hhttps://github.com/PatelYug2807">
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-body">
+        <div class="container">
+            <div class="row">
+
+                <div class="col s12 center-align">
+                    <h1 id="heading">Welcome to SIT 725 Week 3</h1>
+
+                    <p class="flow-text">
+                        This is a demo application that tries to use a few components from
+                        Materialize and through this practical we try to have some fun with
+                        Materialize and its components.
+                    </p>
+                </div>
+
+                <div class="col s12 center-align">
+                    <img class="materialboxed materialboxed-image"
+                        src="images\Demo.png"
+                        alt="Live Demo">
+                </div>
+
+                <div class="col s12 center-align">
+                    <a class="waves-effect waves-light btn click-me-button"
+                        id="clickMeButton">
+                        <i class="material-icons left">auto_fix_high</i>
+                        Click Me
+                    </a>
+                </div>
+
+            </div>
+<div class="row">
+
+    <div class="col s12 m4">
+        <div class="card">
+            <div class="card-image">
+                <img class="main-card-image" src="https://hagerty-media-prod.imgix.net/2023/03/Aston-Martin-Valkyrie-Dynamic-75-scaled-1-e1678124190760.jpeg?auto=format%2Ccompress&ixlib=php-3.3.0">
+                <span class="card-title"><b>VALKYRIE</b></span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card.</p>
+            </div>
+            <div class="card-action">
+                <button data-target="modal1" class="btn modal-trigger">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m4">
+        <div class="card">
+            <div class="card-image">
+                <img class="main-card-image" src="https://cdn.motor1.com/images/mgl/P30BKG/s1/mercedes-amg-one-for-sale.jpg">
+                <span class="card-title"><b>AMG ONE</b></span>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card.</p>
+            </div>
+            <div class="card-action">
+                <button data-target="modal2" class="btn modal-trigger">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s12 m4">
+        <div class="card">
+            <div class="card-image">
+                <img class="main-card-image" src="https://s1.cdn.autoevolution.com/images/gallery/mclaren-750s-spider-2023-7497_24.jpg">
+                <span class="card-title"><b>Spider </b></span>
+            </div>
+            <div class="card-content">
+                <p>I am another simple card.</p>
+            </div>
+            <div class="card-action">
+                 <button data-target="modal3" class="btn modal-trigger">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- Valkyrie Modal -->
+<div id="modal1" class="modal car-modal">
+    <div class="modal-content">
+        <h4>Aston Martin Valkyrie</h4>
+        <p>
+            The Aston Martin Valkyrie is a road-legal hypercar developed with
+            Red Bull Racing. Powered by a naturally aspirated 6.5L V12 hybrid
+            engine, it produces over 1,100 horsepower and delivers Formula 1-inspired
+            performance.
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn">Close</a>
+    </div>
+</div>
+
+<!-- AMG ONE Modal -->
+<div id="modal2" class="modal car-modal">
+    <div class="modal-content">
+        <h4>Mercedes-AMG ONE</h4>
+        <p>
+            The Mercedes-AMG ONE brings Formula 1 technology to the road. Its
+            hybrid powertrain combines a turbocharged V6 engine with electric
+            motors to produce over 1,000 horsepower and incredible acceleration.
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn">Close</a>
+    </div>
+</div>
+
+<!-- Spider Modal -->
+<div id="modal3" class="modal car-modal">
+    <div class="modal-content">
+        <h4>McLaren 765LT Spider</h4>
+        <p>
+            The McLaren 765LT Spider is an ultra-lightweight convertible supercar
+            featuring a 4.0L twin-turbocharged V8 engine with 755 horsepower.
+            It combines breathtaking speed with an open-top driving experience.
+        </p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn">Close</a>
+    </div>
+</div>
+
+</div>
+</div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
